@@ -98,6 +98,7 @@ a {
   padding: 0.5rem 2rem;
   font-weight: 600;
   color: #fff;
+  white-space: nowrap;
 }
 
 .badge--primary {
@@ -111,3 +112,5 @@ a {
 .badge--small {
   font-size: 1.6rem;
 }
+
+/********************************* Badges *************************************/
