@@ -97,16 +97,17 @@ a {
   font-size: 2rem;
   padding: 0.5rem 2rem;
   font-weight: 600;
-  color: #fff;
   white-space: nowrap;
 }
 
 .badge--primary {
   background-color: var(--color-primary);
+  color: #fff;
 }
 
 .badge--secondary {
   background-color: var(--color-secondary);
+  color: #fff;
 }
 
 .badge--small {
