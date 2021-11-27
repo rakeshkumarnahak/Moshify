@@ -203,6 +203,7 @@ a {
   font-size: 1.8rem;
   font-weight: 600;
   margin: 1rem 0;
+  outline: 0;
   padding: 2rem 3rem;
   text-align: center;
   text-transform: uppercase;
@@ -216,7 +217,7 @@ a {
 }
 
 .btn--primary:hover {
-  background-color: #569fffc5;
+  background-color: #549eff;
 }
 
 .btn--secondary {
@@ -226,7 +227,7 @@ a {
 }
 
 .btn--secondary:hover {
-  background-color: #6ee9ff;
+  background-color: #59e6ff;
 }
 
 .btn--accent {
@@ -236,7 +237,7 @@ a {
 }
 
 .btn--accent:hover {
-  background-color: #ff6b46bd;
+  background-color: #ff6944;
 }
 
 .btn--block {
@@ -260,6 +261,13 @@ a {
 .btn--stretched {
   padding-left: 6rem;
   padding-right: 6rem;
+}
+
+.btn .icon {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+  vertical-align: middle;
 }
 
 @media screen and (min-width: 1024px) {
@@ -291,7 +299,7 @@ a {
 .input-group .input {
   border: 0;
   flex-grow: 1;
-  padding: 1.5rem 1rem;
+  padding: 1.5rem 2rem;
 }
 
 .input-group .btn {
@@ -668,7 +676,7 @@ a {
     opacity: 1;
   }
 
-  .nav__items {
+  .nav__item {
     border: 0;
   }
 }
@@ -697,5 +705,30 @@ a {
   .hero__content {
     text-align: left;
     align-self: center;
+  }
+}
+
+/********************************* Domain Block *************************************/
+.block-domain .input-group {
+  box-shadow: 0 0 30px 20px #e6ebee;
+  border: 0;
+  margin: 4rem auto;
+  max-width: 670px;
+}
+
+.block-domain__prices {
+  display: grid;
+  font-size: 2rem;
+  font-weight: 600;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 6rem);
+  justify-items: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .block-domain__prices {
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   }
 }
