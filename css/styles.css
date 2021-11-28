@@ -57,7 +57,6 @@ h2 {
 
 h3 {
   font-size: 3rem;
-  font-weight: 500;
 }
 
 p {
@@ -508,7 +507,7 @@ a {
 
 /********************************* Testimonials *************************************/
 .testimonial {
-  padding: 3rem;
+  padding: 3rem 4rem;
 }
 
 .testimonial__image {
@@ -614,6 +613,7 @@ a {
 
 .block__header {
   text-align: center;
+  margin-bottom: 4rem;
 }
 
 .block__heading {
